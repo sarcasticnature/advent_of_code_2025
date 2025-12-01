@@ -1,0 +1,7 @@
+packages: ./*.cabal
+jobs: 2
+
+package *
+    -- profiling: true
+    -- profiling-detail: late
+    optimization: 2
