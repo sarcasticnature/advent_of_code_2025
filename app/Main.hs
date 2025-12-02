@@ -6,6 +6,7 @@ import System.Environment (getArgs)
 pickDay :: String -> (String -> IO ())
 pickDay day
   | day == "1" = day01
+  | day == "2" = day02
   | otherwise = \_ -> print "Specified day is unimplemented"
 
 main :: IO ()

@@ -1,5 +1,5 @@
 packages: ./*.cabal
-jobs: 2
+jobs: 4
 
 package *
     -- profiling: true
