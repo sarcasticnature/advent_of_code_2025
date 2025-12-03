@@ -7,6 +7,7 @@ pickDay :: String -> (String -> IO ())
 pickDay day
   | day == "1" = day01
   | day == "2" = day02
+  | day == "3" = day03
   | otherwise = \_ -> print "Specified day is unimplemented"
 
 main :: IO ()
