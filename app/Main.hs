@@ -11,6 +11,7 @@ pickDay day
   | day == "4" = day04
   | day == "5" = day05
   | day == "6" = day06
+  | day == "7" = day07
   | otherwise = \_ -> print "Specified day is unimplemented"
 
 main :: IO ()

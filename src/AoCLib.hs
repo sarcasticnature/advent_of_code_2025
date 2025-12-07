@@ -5,6 +5,7 @@ module AoCLib
     day04,
     day05,
     day06,
+    day07,
   )
 where
 
@@ -14,3 +15,4 @@ import Day03
 import Day04
 import Day05
 import Day06
+import Day07
